@@ -1,0 +1,44 @@
+{
+   "abstract" : "What Math::BigInts are before they become big",
+   "author" : [
+      "(C) by Tels L<http://bloodgate.com/> 2002-2007., Peter John Acklam <pjacklam@online.no>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Math-BigInt-Lite",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.59",
+            "Test::More" : "0.47"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Math::BigInt" : "1.999801",
+            "perl" : "5.006002"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.15",
+   "x_serialization_backend" : "JSON::PP version 2.27400"
+}

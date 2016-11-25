@@ -1,28 +1,25 @@
 ---
-abstract: 'What BigInts are before they become big'
+abstract: 'What Math::BigInts are before they become big'
 author:
-  - '(C) by Tels L<http://bloodgate.com/> 2002-2007. '
-  - 'Tels <nospam-abuse@bloodgate.com>'
+  - '(C) by Tels L<http://bloodgate.com/> 2002-2007., Peter John Acklam <pjacklam@online.no>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
-  Test::More: 0.52
+  ExtUtils::MakeMaker: '6.59'
+  Test::More: '0.47'
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.00'
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.150010'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Math-BigInt-Lite
 no_index:
   directory:
-    - inc
     - t
+    - inc
 requires:
-  Math::BigInt: 1.94
-  Math::BigRat: 0.19
-  perl: 5.006002
-resources:
-  license: http://dev.perl.org/licenses/
-version: 0.14
+  Math::BigInt: '1.999801'
+  perl: '5.006002'
+version: '0.15'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

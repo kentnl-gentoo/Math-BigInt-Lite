@@ -14,7 +14,6 @@ LICENSE
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml
 NEW
 README
 t/alias.inc
@@ -26,4 +25,6 @@ t/pod.t
 t/pod_cov.t
 t/with.t
 TODO
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
 SIGNATURE                                Public-key signature (added by MakeMaker)
