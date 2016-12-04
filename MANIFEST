@@ -1,14 +1,5 @@
 BUGS
 CHANGES
-inc/Module/Install.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
-INSTALL
 lib/Math/BigInt/Lite.pm
 LICENSE
 Makefile.PL
@@ -19,6 +10,9 @@ README
 t/alias.inc
 t/bigintpm.inc
 t/bigintpm.t
+t/from_bin-mbl.t
+t/from_hex-mbl.t
+t/from_oct-mbl.t
 t/lite.t
 t/mbi_ali.t
 t/pod.t

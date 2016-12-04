@@ -1,10 +1,9 @@
 ---
-abstract: 'What Math::BigInts are before they become big'
+abstract: unknown
 author:
-  - '(C) by Tels L<http://bloodgate.com/> 2002-2007., Peter John Acklam <pjacklam@online.no>'
+  - 'Peter John Acklam <pjacklam@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: '6.59'
-  Test::More: '0.47'
+  ExtUtils::MakeMaker: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
@@ -20,6 +19,7 @@ no_index:
     - inc
 requires:
   Math::BigInt: '1.999801'
-  perl: '5.006002'
-version: '0.15'
+  Test::More: '0.94'
+  perl: '5.006'
+version: '0.16'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
